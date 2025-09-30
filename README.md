@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:29-09-2025
+## Register Number:25016837
+## Name:E ARYA KRISHNA 
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,85 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+-Develop a mobile and SMS-based Smart Crop Advisory System that uses AI to recommend suitable crops, detect diseases from plant images, and send real-time weather and market alerts—empowering small and marginal    farmers with personalized, multilingual guidance for better yield and income.
+-Works via SMS and voice in regional languages, making it usable even for farmers without smartphones or literacy.
+-Farmers can simply snap a photo of a sick plant to get instant diagnosis and treatment suggestions.
+
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+ Softwares used
+- Android Studio – for mobile app development
+- Python / Node.js – for backend and AI models
+- OpenCV – for image-based disease detection
+- Firebase / AWS – for cloud storage and notifications
+- Twilio / Textlocal – for SMS alerts
+- Google Maps API – for location-based crop advice
+ Hardwares used
+- Smartphones / Feature Phones – for farmer access
+- Basic Soil Testing Kits – to collect soil data
+
+  FLOWCHART
+
+  1. Farmer Registration
+   └─ Sends SMS to system number or gets registered by agent
+
+2. Crop Information Submission
+   └─ Sends crop type, location, and growth stage via SMS
+
+3. System Analysis
+   └─ Uses AI and weather data to generate advice
+
+4. Advisory Message Sent
+   └─ Farmer receives SMS with tips (watering, pest control, etc.)
+
+5. Farmer Applies Advice
+   └─ Follows instructions in the field
+
+6. Feedback or Query
+   └─ Sends follow-up SMS for help or updates
+
+7. Regular Updates
+   └─ Receives weekly tips, weather alerts, and market info
+
+
+
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+ Feasibility -these systems use technology like AI, weather data, and soil sensors to give farmers personalized advice—helping them choose the right crops, manage pests, and optimize irrigation.
+ Viability -not all farmers have smartphones or internet access, some may not trust tech-based advice, and rural areas often lack the infrastructure to support these systems fully.
+ To overcome the risks :
+             Training & Awareness-Conduct village-level workshops and demo sessions to build digital literacy and confidence in tech-based advice.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+Impacts:This will cause many good impacts in the environment like,
+- Promotes eco-friendly farming
+- Saves water and reduces chemical use
+- Helps farmers deal with changing weather
+  Benefits:
+   Farming Benefits
+- Better crop choices and farming methods
+- Timely advice on watering, fertilizing, and pest control
+- Higher crop yield and lower farming costs
+   Economic Benefits
+- Increased income for farmers
+- Reduced waste and smarter use of resources
+- Access to market prices and demand trends
+   Environmental Benefits
+- Less use of harmful chemicals
+- Saves water and protects soil health
+- Supports climate-friendly farming
+
+
+
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+- Mobile and SMS Tools
+- Research proves that SMS-based systems are effective for farmers without internet or smartphones.
+- IoT and Sensors
+- Using soil and weather sensors improves the accuracy of crop recommendations.
+- Real-World Case Studies
+- Projects in India and Africa show increased yield, reduced costs, and better farmer income.
+
+
+
+
